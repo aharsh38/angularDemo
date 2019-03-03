@@ -1,0 +1,18 @@
+.productimage{
+    height: 150px;
+    width: 190px;
+    
+}
+.product{
+    border: 1px solid gray;
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.product1{
+    border: 1px solid black;
+    height: 315px;
+    width: 210px;
+    box-shadow: 5px red
+}

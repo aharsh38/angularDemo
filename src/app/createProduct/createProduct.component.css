@@ -1,0 +1,11 @@
+.productimage{
+    border: 0.5px;
+    height: 200px;
+    width: 120px;
+    
+}
+.product{
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+}

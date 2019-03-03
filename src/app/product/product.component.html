@@ -1,0 +1,8 @@
+<div class="product" imagelarge>
+    <img [src]="product.image" alt="image" class="productimage"/><br>
+    <label highlight color="blue">{{product.name}}</label><br>
+    <label highlight color="red">{{product.price | discount | currency:"INR"}}</label><br>
+    <label>{{product.brand}}</label><br>
+    <button type="button" class="btn btn-default" (click)=addToCart() *ngIf="showbutton">Add to cart</button>
+    <button type="button" class="btn btn-default" (click)=checkout() *ngIf="showbutton">Checkout</button>
+</div>

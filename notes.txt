@@ -1,0 +1,52 @@
+angular is frontend framework on JS
+angular is running on browser only
+SPA-single page application
+it can a request only cannot access the system level process
+single DOM
+only one body tag
+
+typescript is js+datatypes => type restriction on js so backend
+	has no problem
+
+angularjs is v1 - no typescript, no classes.
+
+from further version it is called angular only.
+	class, typescrpit, js, components available.
+
+npm install -g @angular/cli -> create skeleton application
+
+ng is angularcli tool:
+	ng new project_name
+	ng serve
+
+js will do variable(var) hosting: declare all var at first
+	just declare not assignmnet
+let keyword is used to stop variable hosting.
+
+setTimout is window function
+lambda function not allow to impose scope on it.
+normal function will take scope of window object or impose object
+
+component is anything we see on screen like button, label, input etc.
+-what you see ->ts
+-how you see ->css
+-where you see ->html
+
+main module is one inside it multiple module is possible
+bootstraping is loading module in main.ts
+
+one way binding -> ts to html
+
+
+Module is of first four below
+Building Blocks
+1. Directive
+2. Pipes
+3. Injectables
+4. Component
+5. Module 
+
+
+Injectable is a service to communicate between multiple components.
+and those are declare in provider in app.module.ts
+

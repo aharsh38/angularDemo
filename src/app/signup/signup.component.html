@@ -1,0 +1,9 @@
+Name: <input type="text" [(ngModel)]="user.name"/><br>
+Email: <input type="text" [(ngModel)]="user.email"/><br>
+Password: <input type="password" [(ngModel)]="user.password"/><br>
+<button (click)=submit()>Submit</button>
+{{msg}}
+<br>
+<label>Already registered.</label>
+<button routerLink="/login">Login</button>
+<app-home></app-home>
